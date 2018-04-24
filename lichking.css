@@ -1,0 +1,23 @@
+body {
+	background: url('lichking.jpg') no-repeat;
+	background-size: 100%;
+	width: 60em;
+	margin: 0 auto;
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.6;
+}
+section {
+	background-color: rgba(0,0,0,0.5);
+	padding: 2em;
+}
+
+h1 {
+    font-style: italic;
+    font-family: "muli italic", sans-serif;
+    width: 5em;
+
+  display: table;
+
+  margin: 0 auto;
+  }
