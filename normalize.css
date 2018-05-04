@@ -3,23 +3,161 @@ body {
 	padding: 3em;
 	background-color: #999;
 	font-size: 18px;
-	background-image: url('./jeremy-sun-wow-1920xwide.jpg'); 
+	    opacity: 1000;
+    filter: alpha (opacity=1000);
+	background-image: url('./788798-arthas-lich-king-wrath-of-the-lich-king.jpg'); 
 	color: #ffffffd6;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	text-align: center;
 
+
 }
-
-
-
-
-
-
 @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
 @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
 @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
 @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+#top, #bottom, #left, #right {
+  background: #a5ebff;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
+    @media 
+
+/* Fyrir Síma */
+ and (max-width: 500px),
+
+/* iPadar */
+ and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+  #top, #bottom, #left, #right { display: none; }
+}
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 10px solid #900;
+    border-right: 10px solid #900;  
+}
+body {
+  padding: 40px;
+  overflow-x: hidden; /* For Opera */
+  -webkit-box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+  -moz-box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+  box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+}
+
+   box-sizing: border-box;
+}
+section {
+	background-color: rgba(0,0,0,0.5);
+	padding: 2em;
+}
+h5{
+	color: white;
+}
+h1 {
+    font-style: italic;
+    font-family: "muli italic", sans-serif;
+    width: 5em;
+
+  display: table;
+color: white;
+  margin: 0 auto;
+  }
+  h2{ 
+  	color: white;
+    margin: auto;
+    width: ;
+    border: 3px solid blue;
+    padding: 10px;
+  }
+  p {
+    color: white;
+    margin: auto;
+    width: 300px;
+    border: 3px solid blue;
+    padding: 10px;
+} 
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+   box-sizing: border-box;
+color: white;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+
+
+
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: red;
+}
